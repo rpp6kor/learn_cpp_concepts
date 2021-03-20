@@ -18,14 +18,13 @@ int main()
 {
     std::int32_t fact_num{};
     std::cout << "Enter the number who factorial shall be calculated" << std::endl;
-
     while(true)
     {
         std::cin >> fact_num;
 
         if(fact_num < 0)
         {
-            std::cout << "Entered number is invalid" << std::endl;
+            std::cout << "Entered number is invalid, Enter the number again" << std::endl;
         }
         else
         {
